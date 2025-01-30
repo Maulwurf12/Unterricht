@@ -92,6 +92,7 @@ class Calendar:
             ]
             for date, event_list in self.events.items()
         }
+
         with open(filename, "w") as f:
             json.dump(serializable_events, f, indent=4)
 
@@ -127,7 +128,7 @@ class GUI:
         self.minimize_button.place(x=10, y=10)
 
         self.close_button = tk.Button(self.root, text="X", command=self.root.quit)
-        self.close_button.place(x=500, y=10)
+        self.close_button.place(x=900, y=10)
 
         self.months = [
             "January", "February", "March", "April", "May", "June",
@@ -140,8 +141,28 @@ class GUI:
         self.month_dropdown.place(x=150, y=10)
         self.month_dropdown.bind("<<ComboboxSelected>>", self.update_calendar)
 
+        self.year_var = tk.StringVar()
+        self.year_var.set(str(datetime.datetime.now().year))
+
+        self.year_dropdown = ttk.Combobox(self.root, textvariable=self.year_var, state="readonly",
+                                          values=[str(year) for year in
+                                                  range(2020, 2031)])  # Beispiel Jahre 2020 bis 2030
+        self.year_dropdown.place(x=250, y=10)
+        self.year_dropdown.bind("<<ComboboxSelected>>", self.update_calendar)
+
         self.calendar_frame = tk.Frame(self.root)
         self.calendar_frame.place(x=50, y=50)
+
+        self.scroll_frame = tk.Frame(self.root)
+        self.scroll_frame.place(x=950, y=20)
+
+        scrollbar = tk.Scrollbar(self.scroll_frame)
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
+        self.text_display = tk.Text(self.scroll_frame, height=20, width=30, yscrollcommand=scrollbar.set)
+        self.text_display.pack(side=tk.LEFT)
+
+        scrollbar.config(command=self.text_display.yview)
 
         self.update_calendar()
 
@@ -153,7 +174,7 @@ class GUI:
             widget.destroy()
 
         month = self.months.index(self.month_var.get()) + 1
-        year = 2025
+        year = int(self.year_var.get())  # Das Jahr aus dem Dropdown-Menü holen
 
         first_day, num_days = calendar.monthrange(year, month)
 
@@ -177,9 +198,9 @@ class GUI:
     def select_day(self, day):
         print(f"Tag {day} wurde ausgewählt!")
         selected_month = self.months.index(self.month_var.get()) + 1
-        selected_year = 2025  # Beispieljahr
+        selected_year = int(self.year_var.get())
 
-        self.selected_day = day  # Den aktuell ausgewählten Tag speichern
+        self.selected_day = day
 
         events_on_day = self.calendar.get_events_for_day(selected_year, selected_month, day)
         self.show_event_options(events_on_day)
@@ -241,6 +262,7 @@ class GUI:
         print(f"Ereignis '{event.name}' wurde gelöscht.")
         self.calendar.save_to_json("events.json")
         print("Ereignisse in JSON-Datei gespeichert.")
+        self.display_events()
 
     def edit_event(self, event, popup):
         edit_popup = tk.Toplevel(self.root)
@@ -264,7 +286,6 @@ class GUI:
         description_entry.insert(0, event.description)
         description_entry.pack()
 
-        # Uhrzeit Eingabefeld
         time_label = tk.Label(edit_popup, text="Uhrzeit (HH:MM):")
         time_label.pack()
         time_entry = tk.Entry(edit_popup)
@@ -278,6 +299,7 @@ class GUI:
                                     description_entry.get(), time_entry.get(), edit_popup))
         save_button.pack()
         popup.destroy()
+        self.display_events()
 
     def save_event_edit(self, event, name, place, description, time_str, popup):
         try:
@@ -295,6 +317,7 @@ class GUI:
         print(f"Ereignis '{event.name}' wurde bearbeitet.")
         self.calendar.save_to_json("events.json")
         print("Ereignisse in JSON-Datei gespeichert.")
+        self.display_events()
 
     def add_event(self, options_popup):
         add_popup = tk.Toplevel(self.root)
@@ -331,6 +354,7 @@ class GUI:
                                     selected_day, selected_month, selected_year,
                                     add_popup, options_popup))
         save_button.pack()
+        self.display_events()
 
     def save_new_event(self, name, place, description, time_str, day, month, year, add_popup, options_popup):
         try:
@@ -353,16 +377,29 @@ class GUI:
         print(f"Neues Ereignis '{name}' wurde hinzugefügt.")
         self.calendar.save_to_json("events.json")
         print("Ereignisse in JSON-Datei gespeichert.")
+        self.display_events()
+
+    def display_events(self):
+        self.text_display.delete(1.0, tk.END)
+        for date, events in self.calendar.events.items():
+            self.text_display.insert(tk.END, f"Datum: {date}\n")
+            for event in events:
+                self.text_display.insert(tk.END, f"- {event.name}\n")
+            self.text_display.insert(tk.END, "\n")
 
 
 # main program
 if __name__ == "__main__":
     calendar_instance = Calendar()
+
     try:
         calendar_instance.load_from_json("events.json")
-        print("json found")
+        print("JSON-Datei gefunden.")
     except FileNotFoundError:
-        print("json file not found. Will create it.")
+        print("JSON-Datei nicht gefunden. Eine neue Datei wird erstellt.")
+
     root = tk.Tk()
     app = GUI(root, calendar_instance)
+    app.display_events()  # Events beim Start anzeigen
     root.mainloop()
+

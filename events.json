@@ -1,15 +1,43 @@
 {
-    "2025-01-01": [
+    "2025-01-28": [
         {
-            "name": "test1",
-            "place": "FN1",
-            "description": "beschr1",
+            "name": "aasd",
+            "place": "asdf",
+            "description": "asdf",
             "time": {
-                "day": 1,
+                "day": 28,
+                "month": 1,
+                "year": 2025,
+                "hour": 24,
+                "minute": 99
+            }
+        }
+    ],
+    "2025-01-11": [
+        {
+            "name": "j",
+            "place": "asdf",
+            "description": "asdf",
+            "time": {
+                "day": 11,
+                "month": 1,
+                "year": 2025,
+                "hour": 0,
+                "minute": 0
+            }
+        }
+    ],
+    "2025-01-18": [
+        {
+            "name": "asdf",
+            "place": "asdf",
+            "description": "ee",
+            "time": {
+                "day": 18,
                 "month": 1,
                 "year": 2025,
                 "hour": 15,
-                "minute": 15
+                "minute": 0
             }
         }
     ]

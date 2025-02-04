@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d59bf28-dda9-45a7-931d-69f01fa44ffe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UebTag3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gtk-example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMovies.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snackMachine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kontaktverwaltung.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calender.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calender.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snackMachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/snackMachine.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +39,7 @@
   &quot;keyToString&quot;: {
     &quot;Python.Calender.executor&quot;: &quot;Run&quot;,
     &quot;Python.Jakob-banksystem.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Kontaktverwaltung.executor&quot;: &quot;Run&quot;,
     &quot;Python.Max-Mustermann.executor&quot;: &quot;Run&quot;,
     &quot;Python.UebTag2.executor&quot;: &quot;Run&quot;,
     &quot;Python.UebTag3.executor&quot;: &quot;Run&quot;,
@@ -57,7 +52,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/kili/PycharmProjects/Unterricht/snackMachine.py&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kili/PycharmProjects/Unterricht/Kontaktverwaltung.py&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -75,7 +70,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.snackMachine">
+  <component name="RunManager" selected="Python.Kontaktverwaltung">
     <configuration name="Calender" type="PythonConfigurationType" factoryName="Python">
       <module name="Unterricht" />
       <option name="ENV_FILES" value="" />
@@ -116,6 +111,30 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Uebung1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Kontaktverwaltung" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Unterricht" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (Unterricht)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kontaktverwaltung.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -322,6 +341,7 @@
       <item itemvalue="Python.UebTag3" />
       <item itemvalue="Python.tiktaktoe" />
       <item itemvalue="Python.snackMachine" />
+      <item itemvalue="Python.Kontaktverwaltung" />
       <item itemvalue="Python.Jakob-banksystem" />
       <item itemvalue="Python.bankSystem" />
       <item itemvalue="Python.UebTag2" />
@@ -363,7 +383,9 @@
       <workItem from="1738077153074" duration="2120000" />
       <workItem from="1738093606307" duration="468000" />
       <workItem from="1738228522345" duration="8891000" />
-      <workItem from="1738242906476" duration="1778000" />
+      <workItem from="1738242906476" duration="3637000" />
+      <workItem from="1738657624578" duration="2529000" />
+      <workItem from="1738660859303" duration="3169000" />
     </task>
     <servers />
   </component>
@@ -378,8 +400,9 @@
     <SUITE FILE_PATH="coverage/Unterricht$Jakob_banksystem.coverage" NAME="Jakob-banksystem Coverage Results" MODIFIED="1737361683509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Unterricht$firstThingsFirst.coverage" NAME="firstThingsFirst Coverage Results" MODIFIED="1737018425001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Unterricht$Calender.coverage" NAME="Calender Coverage Results" MODIFIED="1738228525839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Unterricht$Kontaktverwaltung.coverage" NAME="Kontaktverwaltung Coverage Results" MODIFIED="1738663977521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Unterricht$UebTag3.coverage" NAME="UebTag3 Coverage Results" MODIFIED="1738233991383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Unterricht$snackMachine.coverage" NAME="snackMachine Coverage Results" MODIFIED="1738244621974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Unterricht$snackMachine.coverage" NAME="snackMachine Coverage Results" MODIFIED="1738659494569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Unterricht$tiktaktoe.coverage" NAME="tiktaktoe Coverage Results" MODIFIED="1738236025667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

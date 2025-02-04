@@ -105,5 +105,5 @@ while running:
     draw_counter(counter)
 
     pygame.display.flip()
-    clock.tick(60) 
+    clock.tick(60)
 pygame.quit()

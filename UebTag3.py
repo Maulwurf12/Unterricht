@@ -11,7 +11,7 @@ print(myGrades)
 '''
 '''
 #A1.1.2
-with open("zutaten.txt", "r+"): # a ist besser
+with open("zutaten.txt", "r+"):
     zutaten.write("Butter\n") 
     zutaten.write("Zucker\n")
 zutaten.close() #nicht nötig

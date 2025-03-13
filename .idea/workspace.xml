@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d59bf28-dda9-45a7-931d-69f01fa44ffe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UebTag4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UebTag5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UebTag6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/circle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kontaktverwaltung.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kontaktverwaltung.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UebTag3.py" beforeDir="false" afterPath="$PROJECT_DIR$/UebTag3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.json" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,35 +37,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Calender.executor": "Run",
-    "Python.Jakob-banksystem.executor": "Run",
-    "Python.Kontaktverwaltung.executor": "Run",
-    "Python.Max-Mustermann.executor": "Run",
-    "Python.UebTag2.executor": "Run",
-    "Python.UebTag3.executor": "Run",
-    "Python.UebTag4.executor": "Run",
-    "Python.UebTag5.executor": "Run",
-    "Python.bankSystem.executor": "Run",
-    "Python.firstThingsFirst.executor": "Run",
-    "Python.gtk-example.executor": "Run",
-    "Python.runUebungen.executor": "Run",
-    "Python.snackMachine.executor": "Run",
-    "Python.tiktaktoe.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/kili/PycharmProjects/Unterricht/UebTag5.py",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in UebTag6.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Calender.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Jakob-banksystem.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Kontaktverwaltung.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Max-Mustermann.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UebTag2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UebTag3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UebTag4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UebTag5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bankSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Python.firstThingsFirst.executor&quot;: &quot;Run&quot;,
+    &quot;Python.game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gtk-example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.runUebungen.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snackMachine.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tiktaktoe.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kili/PycharmProjects/Unterricht/UebTag5.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -75,7 +76,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.UebTag5">
+  <component name="RunManager" selected="Python tests.Python tests in UebTag6.py">
     <configuration name="Calender" type="PythonConfigurationType" factoryName="Python">
       <module name="Unterricht" />
       <option name="ENV_FILES" value="" />
@@ -292,6 +293,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Unterricht" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="gtk-example" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Unterricht" />
       <option name="ENV_FILES" value="" />
@@ -388,27 +412,51 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in UebTag6.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Unterricht" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/UebTag6.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Calender" />
       <item itemvalue="Python.Jakob-banksystem" />
       <item itemvalue="Python.Kontaktverwaltung" />
-      <item itemvalue="Python.UebTag5" />
       <item itemvalue="Python.UebTag2" />
       <item itemvalue="Python.UebTag3" />
       <item itemvalue="Python.UebTag4" />
+      <item itemvalue="Python.UebTag5" />
       <item itemvalue="Python.bankSystem" />
       <item itemvalue="Python.firstThingsFirst" />
       <item itemvalue="Python.gtk-example" />
       <item itemvalue="Python.runUebungen" />
       <item itemvalue="Python.snackMachine" />
       <item itemvalue="Python.tiktaktoe" />
+      <item itemvalue="Python.game" />
+      <item itemvalue="Python tests.Python tests in UebTag6.py" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in UebTag6.py" />
+        <item itemvalue="Python.game" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PY-243.23654.177" />
-        <option value="bundled-python-sdk-91d3a02ef49d-43b77aa2d136-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.23654.177" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
+        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
       </set>
     </attachedChunks>
   </component>
@@ -444,6 +492,10 @@
       <workItem from="1738833441322" duration="8323000" />
       <workItem from="1739439257035" duration="139000" />
       <workItem from="1740043998124" duration="3002000" />
+      <workItem from="1740556934252" duration="14000" />
+      <workItem from="1741079344036" duration="2020000" />
+      <workItem from="1741102883158" duration="1231000" />
+      <workItem from="1741688057370" duration="622000" />
     </task>
     <servers />
   </component>
@@ -454,8 +506,9 @@
     <SUITE FILE_PATH="coverage/Unterricht$bankSystem.coverage" NAME="bankSystem Coverage Results" MODIFIED="1737547956794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Unterricht$UebTag4.coverage" NAME="UebTag4 Coverage Results" MODIFIED="1738838404111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Unterricht$Kontaktverwaltung.coverage" NAME="Kontaktverwaltung Coverage Results" MODIFIED="1738841596252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Unterricht$.coverage" NAME=" Coverage Results" MODIFIED="1741081835998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Unterricht$snackMachine.coverage" NAME="snackMachine Coverage Results" MODIFIED="1738659494569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Unterricht$UebTag5.coverage" NAME="UebTag5 Coverage Results" MODIFIED="1740046140611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Unterricht$UebTag5.coverage" NAME="UebTag5 Coverage Results" MODIFIED="1741079876365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Unterricht$Max_Mustermann.coverage" NAME="runUebungen Coverage Results" MODIFIED="1737022945950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Unterricht$gtk_example.coverage" NAME="gtk-example Coverage Results" MODIFIED="1738229140457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Unterricht$UebTag2.coverage" NAME="UebTag2 Coverage Results" MODIFIED="1737629667934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -463,6 +516,7 @@
     <SUITE FILE_PATH="coverage/Unterricht$Calender.coverage" NAME="Calender Coverage Results" MODIFIED="1738228525839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Unterricht$firstThingsFirst.coverage" NAME="firstThingsFirst Coverage Results" MODIFIED="1737018425001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Unterricht$UebTag3.coverage" NAME="UebTag3 Coverage Results" MODIFIED="1738233991383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Unterricht$game.coverage" NAME="game Coverage Results" MODIFIED="1741081712624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Unterricht$tiktaktoe.coverage" NAME="tiktaktoe Coverage Results" MODIFIED="1738236025667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
